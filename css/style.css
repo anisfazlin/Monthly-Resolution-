@@ -25,19 +25,23 @@ sidebar{
 }
 
 #Author{
-	padding: 13px;
+	/* padding: 13px; */
+	padding-right: -5px;
 	font-family: 'Julius Sans One', sans-serif;
-	background-color: silver;
+	background-color: #E1E1E1;
 	float:left;
-	width: 29%;
+	width: 29.6%;
 	height: 500px;;
+	margin-top: -5px;
 }
 
-.Bubble{
-	width:70px;
-	height:
-
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
+
 /*----------------------------------------------------------------------------- 
 03=MAIN  
 -----------------------------------------------------------------------------*/
@@ -45,9 +49,9 @@ sidebar{
 
 #container{
 	width: 900px;
-	padding: 30px;
+	padding: 0 10px;
 	float: left;
-	min-height: 810px;
+	min-height: 500px;
 }
 
 .center {
@@ -65,8 +69,27 @@ sidebar{
 }
 
 h1{
-	font-family: 'Homemade Apple', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	padding:25px;
-	background-color: #F6F5F0;
+	/* background-color: #DBE3B4; */
+	border-bottom: 3px #F6F5F0 solid;
+}
+blockquote {
+  /* background: #f9f9f9; */
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  /* content: open-quote; */
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
