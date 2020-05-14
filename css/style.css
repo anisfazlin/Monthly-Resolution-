@@ -25,13 +25,13 @@ sidebar{
 }
 
 #Author{
-	/* padding: 13px; */
+	padding-top: 13px;
 	padding-right: -5px;
 	font-family: 'Julius Sans One', sans-serif;
 	background-color: #E1E1E1;
 	float:left;
 	width: 29.6%;
-	height: 500px;;
+	height: 550px;;
 	margin-top: -5px;
 }
 
@@ -72,7 +72,7 @@ h1{
 	font-family: 'Julius Sans One', sans-serif;
 	padding:25px;
 	/* background-color: #DBE3B4; */
-	border-bottom: 3px #F6F5F0 solid;
+	border-bottom: 3px #F6F5F0 dotted;
 }
 blockquote {
   /* background: #f9f9f9; */
