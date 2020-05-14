@@ -1,0 +1,72 @@
+
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+.header{
+	padding: 0 auto;
+}
+
+sidebar{
+	color:peachpuff;
+}
+
+#Author{
+	padding: 13px;
+	font-family: 'Julius Sans One', sans-serif;
+	background-color: silver;
+	float:left;
+	width: 29%;
+	height: 500px;;
+}
+
+.Bubble{
+	width:70px;
+	height:
+
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
+#container{
+	width: 900px;
+	padding: 30px;
+	float: left;
+	min-height: 810px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#footer{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 50%;
+	background-color: #F6F5F0;
+	padding:10px;
+}
+
+h1{
+	font-family: 'Homemade Apple', cursive;
+	padding:25px;
+	background-color: #F6F5F0;
+}
+
